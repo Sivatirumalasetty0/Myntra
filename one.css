@@ -1,0 +1,77 @@
+*{
+    margin: 0%;
+    font-family: sans-serif;
+}
+.navbar{
+    background-color:rgb(214, 157, 167);
+    padding: 3px;
+    /* width: 100vw; */
+    position: sticky;
+    /* position: fixed; */
+    /* position: static; */
+    top: 0px;
+    display: flex;
+    align-items: center;
+
+}
+.navbar a{
+    vertical-align: middle;
+    color:black;
+    text-decoration: none;
+    margin-right: 4%;
+    margin-left: 2%;
+    font-size: 1rem;
+}
+
+
+.hey{
+    /* font-style: italic; */
+    margin: 10px;
+}
+.mydata{
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+    width: 500px;
+    margin-left: 30%;
+    padding: 25px;
+    box-shadow: 2px 3px 15px grey;
+}
+.myform{
+    display: flex;
+    flex-direction: column;
+}
+.mydata img{
+    margin: 20px;
+}
+.mydata p{
+    margin: 20px;
+}
+.myform input{
+    padding: 10px;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    border-radius: 0px;
+    border: 0.5px solid grey;
+    margin: 20px;
+}
+.check{
+    display: flex;
+    flex-direction: row;
+}
+.btn{
+    background-color:grey;
+    color: white;
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+}
+.login{
+    text-decoration: none;
+    text-align: center;
+    margin-top: 7%;
+}
+.navbar input{
+    padding: 8px;
+    border: none;
+}
